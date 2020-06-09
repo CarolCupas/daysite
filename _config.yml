@@ -49,6 +49,9 @@ copyright: © 2020 Dayana Duarte Estética - Derechos Reservados
 # Build settings
 markdown: kramdown
 
+plugins:
+- jekyll-menus
+
 exclude: [
     package.json,
     Gruntfile.js,
@@ -56,9 +59,12 @@ exclude: [
     .sass-cache,
     Gemfile,
     Gemfile.lock,
-    .gitignore
+    .gitignore,
+    LICENSE.md,
+    README.md
 ]
 
 # Theme Settings
 analytics: 
 google_verification:
+
