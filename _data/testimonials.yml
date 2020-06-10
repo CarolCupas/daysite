@@ -1,11 +1,11 @@
 - name: Cliente 1
-  description: Me ha encantado el masaje, mis pierns quedaron magnificas.
+  description: Me ha encantado el masaje, mis piernas quedaron magníficas.
   title:  Abogada - Madrid
 
 - name: Cliente 2
-  description: Mis uñas quedaron muy bonitas. 
+  description: Mis uñas lucen muy bonitas. 
   title: Profesora - Madrid
 
 - name: Cliente 3
-  description: Me atendieron muy bien, la chica es muy profesional.
+  description: Me atendieron bien, la chica es muy profesional.
   title: Secretaria - Madrid

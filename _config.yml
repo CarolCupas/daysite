@@ -3,9 +3,9 @@ title: Dayana Duarte Estetica
 description: "Servicios de belleza por profesional certificada."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: img/logo4_tr.png
+logo_url: img/nombre.png
 
-# Hero
+# Hero (BGHeader)
 hero: 
     hero_img: hero.jpg
     hero_title: Dayana Duarte Estética
@@ -18,7 +18,7 @@ api_token: # Enter API token here
 contact:
     phone: 916 50 44 56
     emergency: 
-    email: contact@yoursite.com
+    email: dayduarte3888@gmail.com
     address: Centro Comercial Cuesta Blanca, 28100, Alcobendas, Madrid
 
 # Opening hours
@@ -33,7 +33,7 @@ testimonials:
 map:
     zoom: 15
     address: Centro Comercial Cuesta Blanca, 28100, Alcobendas, Madrid
-    address_details: svg/min/logo.svg
+    address_details: uploads/mapaUrbanNails.png
 
 # Social settings
 facebook: http://facebook.com
