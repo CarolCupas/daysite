@@ -1,10 +1,10 @@
 /*!
- *  GMAP3 Plugin for jQuery
+ *  3 Plugin for jQuery
  *  Version   : 6.0.0
  *  Date      : 2014-04-25
  *  Author    : DEMONTE Jean-Baptiste
  *  Contact   : jbdemonte@gmail.com
- *  Web site  : http://gmap3.net
+ *  Web site  : http://3.net
  *  Licence   : GPL v3 : http://www.gnu.org/licenses/gpl.html
  *  
  *  Copyright (c) 2010-2014 Jean-Baptiste DEMONTE
@@ -35,7 +35,7 @@ function isUndefined(m) {
 
 /**
  * Initialize default values
- * defaults are defined at first gmap3 call to pass the rails asset pipeline and jasmine while google library is not yet loaded
+ * defaults are defined at first 3 call to pass the rails asset pipeline and jasmine while google library is not yet loaded
  */
 function initDefaults() {
   gm = google.maps;
@@ -85,7 +85,7 @@ function initDefaults() {
  * @returns {*}
  */
 function globalId(id, simulate) {
-  return isUndefined(id) ? "gmap3_" + (simulate ? gId + 1 : ++gId) : id;
+  return isUndefined(id) ? "3_" + (simulate ? gId + 1 : ++gId) : id;
 }
 
 
@@ -934,7 +934,7 @@ function elevationService() {
  * Note:
  * Individuals marker are created on the fly thanks to the td objects, they are
  * first set to null to keep the indexes synchronised with the td list
- * This is the "display" function, set by the gmap3 object, which uses theses data
+ * This is the "display" function, set by the 3 object, which uses theses data
  * to create markers when clusters are not required
  * To remove a marker, the objects are deleted and set not null in arrays
  *    markers[key]
@@ -1546,7 +1546,7 @@ function OverlayView(map, opts, latLng, $div) {
   };
 }
 
-function Gmap3($this) {
+function 3($this) {
   var self = this,
     stack = new Stack(),
     store = new Store(),
@@ -2489,7 +2489,7 @@ function Gmap3($this) {
   };
 }
 
-$.fn.gmap3 = function () {
+$.fn.3 = function () {
   var i,
     list = [],
     empty = true,
@@ -2513,20 +2513,20 @@ $.fn.gmap3 = function () {
   // loop on each jQuery object
   $.each(this, function () {
     var $this = $(this),
-      gmap3 = $this.data("gmap3");
+      3 = $this.data("3");
     empty = false;
-    if (!gmap3) {
-      gmap3 = new Gmap3($this);
-      $this.data("gmap3", gmap3);
+    if (!3) {
+      3 = new 3($this);
+      $this.data("3", 3);
     }
     if (list.length === 1 && (list[0] === "get" || isDirectGet(list[0]))) {
       if (list[0] === "get") {
-        results.push(gmap3.get("map", true));
+        results.push(3.get("map", true));
       } else {
-        results.push(gmap3.get(list[0].get, true, list[0].get.full));
+        results.push(3.get(list[0].get, true, list[0].get.full));
       }
     } else {
-      gmap3._plan(list);
+      3._plan(list);
     }
   });
 

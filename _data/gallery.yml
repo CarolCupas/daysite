@@ -29,3 +29,11 @@
 - image_thumb: gallery-small8.jpg
   image_large: gallery-large8.jpg
   image_alt: something meaningful
+
+- image_thumb: ml_20200531_small.png
+  image_large: ml_20200531_large.png
+  image_alt: ml_20200531
+
+- image_thumb: mc_verde_small.jpg
+  image_large: mc_verde_large.jpg
+  image_alt: mc_verde
