@@ -17,7 +17,7 @@ cambio el width de 50% a 90%
 .hero-content {
     padding: $space 0;
     background: rgba($white, 0.7);
-    @include breakpoint(large) {
+    @include breakpoint(small) {
         position: absolute;
         bottom: 0;
         left: 0;
