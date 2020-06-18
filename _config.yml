@@ -12,7 +12,7 @@ hero:
     hero_description: Profesional de la belleza.
 
 # Contact form
-api_token: # Enter API token here
+api_token: b66cef4a2b88f9aa739a64904ed07ae1
 
 # Contact info
 contact:
