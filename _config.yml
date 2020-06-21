@@ -2,7 +2,7 @@
 title: Dayana Duarte Estética
 description: "Servicios de belleza por profesional certificada."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "https://www.dayanaduarteestetica.com" 
 logo_url: img/DDE_logo.png
 
 # Hero (BGHeader)

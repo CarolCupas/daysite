@@ -30,10 +30,50 @@
   image_large: gallery-large8.jpg
   image_alt: something meaningful
 
-- image_thumb: ml_20200531_small.png
-  image_large: ml_20200531_large.png
-  image_alt: ml_20200531
-
-- image_thumb: mc_verde_small.jpg
-  image_large: mc_verde_large.jpg
+- image_thumb: Manicure_verde_small.jpg
+  image_large: Manicure_verde_large.jpg
   image_alt: mc_verde
+
+- image_thumb: 01 cliente_small.png
+  image_large: 01 cliente_large.png
+  image_alt: 01 cliente
+
+- image_thumb: 02 cliente_small.png
+  image_large: 02 cliente_large.png
+  image_alt: 02 cliente
+
+- image_thumb: 03 cliente_small.png
+  image_large: 03 cliente_large.png
+  image_alt: 03 cliente
+
+- image_thumb: 04 cliente_small.png
+  image_large: 04 cliente_large.png
+  image_alt: 04 cliente
+
+- image_thumb: 05 cliente_small.png
+  image_large: 05 cliente_large.png
+  image_alt: 05 cliente
+
+- image_thumb: 06 cliente_small.png
+  image_large: 06 cliente_large.png
+  image_alt: 06 cliente
+
+- image_thumb: 07 cliente_small.png
+  image_large: 07 cliente_large.png
+  image_alt: 07 cliente
+
+- image_thumb: 08 cliente_small.png
+  image_large: 08 cliente_large.png
+  image_alt: 08 cliente
+
+- image_thumb: 09 cliente_small.png
+  image_large: 09 cliente_large.png
+  image_alt: 09 cliente
+
+- image_thumb: 10 cliente_small.png
+  image_large: 10 cliente_large.png
+  image_alt: 10 cliente
+
+- image_thumb: 11 cliente_small.png
+  image_large: 11 cliente_large.png
+  image_alt: 11 cliente
