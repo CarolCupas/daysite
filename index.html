@@ -1,120 +1,47 @@
 ---
 layout: default
 ---
-
-<!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+<!-- Start Hero p1 -->
+<!-- <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;"> -->
+    <div class="hero" style="background-size: cover;"></div>
     <div class="hero-content">
         <div class="container-fluid">
             <div class="hero-content-inner">
-                <h1>{{ site.hero.hero_title }}</h1>
+                <!-- <h1>{{ site.hero.hero_title }}</h1> -->
+                <h1>Hola! Soy Dayana</h1>
                 <p>{{ site.hero.hero_description }}</p>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid">
-        
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Haz una cita</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
-                <div class="form-field">
-                    <input name="name" type="text" placeholder="Nombre" required>
-                </div>
-                <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Telefono" required>
-                </div>
-                <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
-                </div>
-                <div class="form-field">
-                    <textarea name="comments" placeholder="Mensaje" required></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Enviar">
-            </form>
-        </div>
-
-    </div>
 </div>
-<!-- End Hero -->
-
-<!-- Start 3 columns -->
-<div class="three-shade-col">
-    <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contacto</h3>
-        <ul>
-            {% if site.contact.phone %}<li><strong>Teléfono:</strong> {{ site.contact.phone }}</li>{% endif %}
-             {% if site.contact.movil %}<li><strong>Móvil:</strong> {{ site.contact.movil }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
-        </ul>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Horario</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Lunes – Viernes</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td>Sábado</td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Dirección</h3>
-            <p>
-                {{ site.contact.address }}
-            </p>
-    </div>
-</div>
-<!-- End 3 columns -->
+<!-- </div> -->
+<!-- End Hero p1 -->
 
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">Especialista</h2>
-
+        <!-- <h2 class="section-title">Especialista</h2> -->
+        
         <div class="row">
             <div class="col-sm-6">
-                <h3>Hola!</h3>
-                <p>Soy Dayana Duarte, te ofrezco una atención profesional y servicios de calidad!</p>
+                <!-- <h3>Hola!</h3> 
+                <p>Hola! Soy Dayana Duarte, te ofrezco una atención profesional y servicios de calidad!</p> -->
 
                 <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
                     <div class="media-body">
-                        <p>Profesional certificada en el Método de drenaje linfático Manu Bernardi; éste método fue desarrollado luego de investigar varios métodos como Godoy, Leduc y Vodder, obteniendo lo mejores beneficios de cada uno de ellos. El método consiste en un drenaje linfático con fines estéticos, drenando y moldeando todo el cuerpo para mejorar la figura y el aspecto de la piel.</p>
+                        <p>Te ofrezco una atención profesional y servicios de calidad. Estoy certificada como profesional en el método de drenaje linfático Manu Bernardi; éste método fue desarrollado luego de investigar varios métodos como Godoy, Leduc y Vodder, obteniendo lo mejores beneficios de cada uno de ellos.</p>
                     </div>
                 </div>
 
                 <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
                     <div class="media-body">
-                        <p>Las clientes podrán obtener resultados sastifactorios despúes de la primera sesión.</p>
+                        <p>El método consiste en un drenaje linfático con fines estéticos, drenando y moldeando todo el cuerpo para mejorar la figura y el aspecto de la piel.</p>
                     </div>
                 </div>
 
                 <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
                     <div class="media-body">
-                        <p>Productos de calidad para hacerte lucir radiante y hermosa en toda ocasión.</p>
+                        <p>Las clientes podrán obtener resultados sastifactorios desde la primera sesión. Utilizo productos de calidad para hacerte lucir radiante y hermosa en toda ocasión.</p>
                     </div>
                 </div>
             </div>
@@ -210,6 +137,71 @@ layout: default
 
 </div>
 <!-- End Gallery -->
+
+<!-- Start Hero p2 class="hero" -->
+<div id="contact">
+    <h2 class="section-title">Contáctanos</h2>
+    <div style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;"> 
+        <div class="container-fluid">
+            <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+                <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg> Agenda tu cita</h3>
+                <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+                    <div class="form-field">
+                        <input name="name" type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-field">
+                        <input name="phone" type="tel" placeholder="Telefono" required>
+                    </div>
+                    <div class="form-field">
+                        <input name="email" type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-field">
+                        <textarea name="comments" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-default" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div> 
+ </div>
+<!-- End Hero p2 -->
+
+<!-- Start 3 columns -->
+<div class="three-shade-col">
+    <div class="col-sm-4">
+        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <h3>Contacto</h3>
+        <ul>
+            {% if site.contact.phone %}<li><strong>Teléfono:</strong> {{ site.contact.phone }}</li>{% endif %}
+             {% if site.contact.movil %}<li><strong>Móvil:</strong> {{ site.contact.movil }}</li>{% endif %}
+            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <h3>Horario</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Lunes – Viernes</td>
+                    <td>{{ site.monday_friday }}</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>{{ site.saturday }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <h3>Dirección</h3>
+            <p>
+                {{ site.contact.address }}
+            </p>
+    </div>
+</div>
+<!-- End 3 columns -->
 
 <!-- Start Map 
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>

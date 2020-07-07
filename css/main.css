@@ -7131,7 +7131,8 @@ button.close {
 .testimonials .overlay-container,
 .gallery,
 .team {
-  padding: 60px 0;
+  /* padding: 60px 0; */
+  padding: 25px 0;
 }
 .three-shade-col ul,
 .social {
@@ -7311,8 +7312,9 @@ strong {
 }
 .hero {
   position: relative;
-  margin-top: 70px;
+  margin-top: 70px; 
 }
+
 .hero .container-fluid {
   position: relative;
 }
@@ -7323,11 +7325,12 @@ strong {
 }
 .hero-content {
   padding: 20px 0;
-  background: rgba(255, 255, 255, 0.7);
+  /* background: rgba(255, 255, 255, 0.7); */
+  background: #40b4ba;
 }
 @media (min-width: 768px) {
   .hero-content {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -7340,18 +7343,20 @@ strong {
 }
 .hero-content h1 {
   margin: 0 0 5px;
-  color: #3dadb2;
+  color: #f7f7f7; /* #3dadb2; */
 }
 .hero-content p {
   font-size: 1.125rem;
 }
 .form {
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
+  padding: 20px 20px;
   background: #f7f7f7;
 }
 @media (min-width: 768px) {
   .form {
-    padding: 80px 20px;
+    /* padding: 80px 20px; */
+    padding: 20px 20px;
   }
 }
 .form textarea {
@@ -7376,7 +7381,8 @@ strong {
   }
 }
 .three-shade-col [class^="col-"] {
-  padding: 60px 20px;
+  /* padding: 60px 20px; */
+  padding: 30px 20px;
   color: #fff;
 }
 @media (min-width: 992px) {
@@ -7405,7 +7411,8 @@ strong {
   width: 100%;
 }
 .section-title {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  margin-bottom: 25px;
   text-align: center;
 }
 .treatments {

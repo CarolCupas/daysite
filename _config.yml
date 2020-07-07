@@ -9,7 +9,7 @@ logo_url: img/DDE_logo.png
 hero: 
     hero_img: bgheader.jpg
     hero_title: Dayana Duarte Estética
-    hero_description: Profesional de la belleza.
+    hero_description: Profesional de la belleza
 
 # Contact form
 api_token: b66cef4a2b88f9aa739a64904ed07ae1
@@ -36,7 +36,7 @@ map:
     address_details: uploads/mapaUrbanNails.png
 
 # Social settings
-facebook: https://www.facebook.com/dayanekenneth
+facebook: https://www.facebook.com/dayanaduarteestetica
 instagram: https://www.instagram.com/dayanaduarteestetica/
 #  twitter: https://twitter.com
 # youtube: https://youtube.com
