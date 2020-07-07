@@ -6608,9 +6608,10 @@ button.close {
   border-left-color: #fff;
   bottom: -10px;
 }
-.carousel {
+/* .carousel {
   position: relative;
-}
+} */
+
 .carousel-inner {
   position: relative;
   overflow: hidden;
