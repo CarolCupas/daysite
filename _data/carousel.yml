@@ -1,9 +1,9 @@
 images: 
   # - image: /img/uploads/slider/Inst_Cama.jpg
   - image: /img/uploads/slider/Inst_Cama2.jpg
-  # - image: /img/uploads/slider/Inst_Cama3.jpg
+  - image: /img/uploads/slider/Inst_Cama3.jpg
   - image: /img/uploads/slider/Inst_Cama4.jpg
-  # - image: /img/uploads/slider/Inst_Cama2_deco.jpg
+  - image: /img/uploads/slider/Inst_Cama2_deco.jpg
   - image: /img/uploads/slider/Inst_Deco1.jpg
   - image: /img/uploads/slider/Inst_Deco2.jpg
   - image: /img/uploads/slider/Inst_Local1.jpg
