@@ -10,25 +10,26 @@
 #  title: Pedicure
 #  description: Mejora el aspecto de los pies y uñas con un tratamiento coméstico para que lucen perfectos.
 
-- icon: icon-diamond
+- icon: icon-bed
   title: Masajes Linfáticos
   description: El drenaje linfático es exclusivamente hecho con las manos y por medio de maniobras efectivas, causando estímulos de estiramiento para capturar el líquido intersticial hacia dentro del vaso linfático que llevan a contracciones más frecuentes y acelera el camino que la linfa recorre y siempre realizados en dirección de ese flujo hasta los ganglios linfáticos.
 
-- icon: icon-diamond
+- icon: icon-bed
   title: Masajes Relajantes
-  description: Consiste en la realización de maniobras superficiales en laas que la intensidad de la presión es suave y el ritmo lento y reiterativo, de manera que al recibir un contacto repetitivo y constante, se pierde la sensación de dolor y los músculos se relajan.
+  description: Consiste en la realización de maniobras superficiales en las que la intensidad de la presión es suave y el ritmo lento y reiterativo, de manera que al recibir un contacto repetitivo y constante, se pierde la sensación de dolor y los músculos se relajan.
 
-- icon: icon-diamond
+- icon: icon-bed
   title: Masajes Reductores
   description: Modalidad de masaje que se realiza con una presión fuerte y una velocidad más rápida que la usual. Busca eliminar la acumulación de grasa localizada y a la vez estilizar el contorno de la figura logrando una silueta más estética.
 
-- icon: icon-diamond
+- icon: icon-bed
   title: Masajes Reafirmantes
   description: Masaje para combatir la flacidez y la celulitis. Ayudan a lograr mayor firmeza en glúteos abdomen, piernas y brazos. Además, alisan y tensan la piel, estimulando la producción de colágeno de la piel para verse más joven.
 
 - icon: icon-diamond
   title: Manicures
-  description: Algo que apasiona a casi todos las mujeres es tener las uñas bien hechas, bien cuidadas y perfectas. Cuida cada parte de ti y déjate mimar por manos de profesionales cualificados. Tenemos muchos años de experiencia y sabemos que nuestras manos hablan de nosotras. Hemos desarrollado un método para que sus manicura dure perfecta toda la semana con esmaltes, bases y brillo de acuerdo con sus uñas.
+  description: Cuida cada parte de ti y déjate mimar por manos de profesionales cualificados. Tenemos muchos años de experiencia y sabemos que nuestras manos hablan de nosotras. Hemos desarrollado un método para que sus manicura dure perfecta toda la semana con esmaltes, bases y brillo de acuerdo con sus uñas.
+# Algo que apasiona a casi todos las mujeres es tener las uñas bien hechas, bien cuidadas y perfectas.
 
 - icon: icon-diamond
   title: Pedicures
