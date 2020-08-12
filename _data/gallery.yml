@@ -1,46 +1,10 @@
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
-  image_alt: Masajes
-
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large2.jpg
-  image_alt: Manicures
-
-- image_thumb: gallery-small3.jpg
-  image_large: gallery-large3.jpg
-  image_alt: Pedicures
-
-- image_thumb: gallery-small4.jpg
-  image_large: gallery-large4.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small5.jpg
-  image_large: gallery-large5.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small6.jpg
-  image_large: gallery-large6.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small7.jpg
-  image_large: gallery-large7.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small8.jpg
-  image_large: gallery-large8.jpg
-  image_alt: something meaningful
-
-- image_thumb: Manicure_verde_small.jpg
-  image_large: Manicure_verde_large.jpg
-  image_alt: mc_verde
-
 - image_thumb: 01 cliente_small.png
   image_large: 01 cliente_large.png
   image_alt: 01 cliente
 
-- image_thumb: 02 cliente_small.png
-  image_large: 02 cliente_large.png
-  image_alt: 02 cliente
+- image_thumb: 08 cliente_small.png
+  image_large: 08 cliente_large.png
+  image_alt: 08 cliente
 
 - image_thumb: 03 cliente_small.png
   image_large: 03 cliente_large.png
@@ -62,9 +26,9 @@
   image_large: 07 cliente_large.png
   image_alt: 07 cliente
 
-- image_thumb: 08 cliente_small.png
-  image_large: 08 cliente_large.png
-  image_alt: 08 cliente
+- image_thumb: 02 cliente_small.png
+  image_large: 02 cliente_large.png
+  image_alt: 02 cliente
 
 - image_thumb: 09 cliente_small.png
   image_large: 09 cliente_large.png
@@ -77,3 +41,63 @@
 - image_thumb: 11 cliente_small.png
   image_large: 11 cliente_large.png
   image_alt: 11 cliente
+
+- image_thumb: pedicure_vino_small.jpg
+  image_large: pedicure_vino_large.jpg
+  image_alt: pd_vino
+
+- image_thumb: Manicure_rojo small.jpg
+  image_large: Manicure_rojo large.jpg
+  image_alt: mc_rojo
+
+- image_thumb: Manicure_rojo2 small.jpg
+  image_large: Manicure_rojo2 large.jpg
+  image_alt: mc_rojo
+
+- image_thumb: Manicure_verde_small.jpg
+  image_large: Manicure_verde_large.jpg
+  image_alt: mc_verde
+
+- image_thumb: pedicure_celeste small.jpg
+  image_large: pedicure_celeste large.jpg
+  image_alt: pd_celeste
+
+# - image_thumb: gallery-small.jpg
+#   image_large: gallery-large.jpg
+#   image_alt: Masajes
+
+# - image_thumb: gallery-small2.jpg
+#   image_large: gallery-large2.jpg
+#   image_alt: Manicures
+
+# - image_thumb: gallery-small3.jpg
+#   image_large: gallery-large3.jpg
+#   image_alt: Pedicures
+
+# - image_thumb: gallery-small4.jpg
+#   image_large: gallery-large4.jpg
+#   image_alt: something meaningful
+
+# - image_thumb: gallery-small5.jpg
+#   image_large: gallery-large5.jpg
+#   image_alt: something meaningful
+
+# - image_thumb: gallery-small6.jpg
+#   image_large: gallery-large6.jpg
+#   image_alt: something meaningful
+
+# - image_thumb: gallery-small7.jpg
+#   image_large: gallery-large7.jpg
+#   image_alt: something meaningful
+
+# - image_thumb: gallery-small8.jpg
+#   image_large: gallery-large8.jpg
+#   image_alt: something meaningful
+
+# - image_thumb: pedicure_rojo_small.jpg
+#   image_large: pedicure_rojo_large.jpg
+#   image_alt: pd_rojo
+
+# - image_thumb: Manicure_amarillo small.jpg
+#   image_large: Manicure_amarillo large.jpg
+#   image_alt: mc_amarillo
